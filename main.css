@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+/* Global */
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 3.25em;
+  color: #0A2463;
+}
+
+/* Header */
+.row-1 {
+  background-color: white;
+  min-height: 60vh;
+  padding-bottom: 30px;
+}
+
+.row-1 p {
+  color: grey;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 10px 0px;
+  /* max-width: 1000px; */
+}
+
+.row-1 img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.heading i {
+  font-size: 1.55em;
+  color: rgb(149, 149, 149);
+  padding-right: 6px;
+}
+
+.heading i:hover {
+  color: #0A2463;
+}
+
+/* Bio */
+.row-2 {
+  padding-top: 30px;
+  min-height: 60vh;
+  background-color: #1B998B;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.row-2 h3 {
+  font-family: 'Lexend Exa', cursive;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.row-2 p {
+  margin-bottom: 40px;
+}
+
+.row-2 img {
+  max-width: 400px;
+}
+
+.button {
+  color: white;
+  background: rgb(151, 151, 151);
+  padding: 8px 10px 5px;
+  border-radius: 4px;
+  text-align: center;
+  transition: background 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: none;
+  background: rgb(30, 25, 62);
+}
+
+/* why */
+.row-3 {
+  min-height: 60vh;
+}
+
+.why h3 {
+  font-family: 'Lexend Exa', cursive;
+  color: #0A2463;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.square {
+  display: block;
+  border-radius: 7px;
+  background: white;
+  box-shadow: 0 0 20px 0px #f0f0f0;
+  padding: 20px;
+  border-left: 5px solid #C5D86D;
+  margin-bottom: 3rem;
+}
+
+.square p {
+  font-size: 1.1rem;
+  color: grey;
+}
+
+/* Role */
+.role h3 {
+  font-family: 'Lexend Exa', cursive;
+  color: #0A2463;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.role p {
+  color: grey;
+}
+
+.role-videos {
+  box-shadow: 0 0 30px 0px rgb(199, 199, 199);
+  border: none;
+  border-radius: 10px;
+}
+
+.square-card {
+  display: block;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 20px 0px rgb(235, 235, 235);
+  padding: 20px;
+  margin-bottom: 3rem!important;
+  font-size: 1.4rem;
+  transition: box-shadow 0.3s ease;
+}
+.square-card:hover {
+  box-shadow: 0 0 20px 0px #C5D86D;
+}
+
+/* Week */
+.row-6 {
+  min-height: 60vh;
+}
+.week h3 {
+  font-family: 'Lexend Exa', cursive;
+  color: #0A2463;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.week h4 {
+  font-size: 3.5rem;
+  color: #ff3366;
+}
+
+.week .stats {
+  padding: 25px 0px;
+}
+.week p {
+  color: grey;
+}
+
+.title {
+  padding-top: 50px;
+}
+
+.week span {
+  font-weight: bold;
+  color: #1B998B;
+}
+
+/* Footer */
+.footer {
+  background-color: #1B998B;
+  color: white;
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  height: 40vh;
+}
+
+.footer h3 {
+  font-family: 'Lexend Exa', cursive;
+}
+
+.row-8 {
+    padding-top: 40px;
+}
+
+.footer .button {
+  border: none;
+}
