@@ -185,15 +185,12 @@ h1 {
   padding: 40px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  height: 40vh;
+  min-height: 40vh;
+
 }
 
 .footer h3 {
   font-family: 'Lexend Exa', cursive;
-}
-
-.row-8 {
-    padding-top: 40px;
 }
 
 .footer .button {
